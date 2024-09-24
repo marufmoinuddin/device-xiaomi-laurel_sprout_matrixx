@@ -437,3 +437,5 @@ PRODUCT_COPY_FILES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/laurel_sprout/laurel_sprout-vendor.mk)
+# Inherit Mindthegapps
+#$(call inherit-product, vendor/mindthegapps/arm64/arm64-vendor.mk)

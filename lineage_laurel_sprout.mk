@@ -14,6 +14,16 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from laurel_sprout device
 $(call inherit-product, device/xiaomi/laurel_sprout/device.mk)
 
+# Matrixx
+MATRIXX_MAINTAINER := TiTAN1UM
+MATRIXX_CHIPSET := SM6125
+MATRIXX_BATTERY := 4030mah
+MATRIXX_DISPLAY := 720x1560
+
+TARGET_BOOT_ANIMATION_RES := 720p
+#TARGET_GAPPS_ARCH := arm64
+#WITH_GMS := true
+
 PRODUCT_DEVICE := laurel_sprout
 PRODUCT_NAME := lineage_laurel_sprout
 PRODUCT_BRAND := Xiaomi
